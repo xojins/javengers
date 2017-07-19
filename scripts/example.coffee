@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
    robot.hear /assemble/i, (res) ->
-     res.send "Javengers Assembled!"
+     res.send ":headsdownonoracle: :lori: :damatulli: :murshedsnuggie: :its_rich: :michaelchuang: :adrian_playdate: :delete_please: :anthony: :jeremy: :dan_t:"
 
 
    robot.hear /badger/i, (res) ->
