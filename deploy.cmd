@@ -1,2 +1,2 @@
-npm install -g yo generator-hubot
+sudo npm install -g yo generator-hubot --slient
 
