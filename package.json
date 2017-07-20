@@ -1,6 +1,6 @@
 {
   "name": "javengers",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "author": "xojins@gmail.com",
   "description": "Javengers Assemble!",
@@ -10,7 +10,6 @@
     "hubot-google-images": "^0.2.7",
     "hubot-google-translate": "^0.2.1",
     "hubot-help": "^0.2.2",
-    "hubot-heroku-keepalive": "^1.0.3",
     "hubot-maps": "0.0.3",
     "hubot-pugme": "^0.1.1",
     "hubot-redis-brain": "0.0.4",
@@ -21,5 +20,8 @@
   },
   "engines": {
     "node": "0.10.x"
+  }
+  "scripts":{
+    "start":"npm install -g yo generator-hubot && HUBOT_SLACK_TOKEN=xoxb-212927817267-Jg7sglL8AyvvR56A42uFmUDL /home/site/wwwroot/bin/hubot --adapter slack"
   }
 }
